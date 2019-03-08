@@ -1,7 +1,7 @@
 defmodule GuessingGame do
 
   def guess(low, high)  do
-    answer = IO.gets("It is #{middle(low,high)} ?")
+    answer = IO.gets("It is #{middle(low,high)} ? ")
 
     case String.trim(answer) do
     "bigger" ->
@@ -14,7 +14,7 @@ defmodule GuessingGame do
       "YES I WIN ! "
     _
     ->
-      IO.puts("NOPE")
+      IO.puts("Please answer with bigger/smaller, or yes ")
       guess(low, high)
 
     end
