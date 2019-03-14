@@ -1,2 +1,4 @@
 # my_alchemist_camp
-Some exercices i made, following alchemist camp episodes : https://alchemist.camp/start
+Some elixir functions i wrote, following alchemist camp episodes : https://alchemist.camp/start
+
+Great videos btw.
